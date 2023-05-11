@@ -2,16 +2,25 @@
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import React, {useState} from 'react';
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom"
 
 import Profile from './components/pages/Profile';
+import Experiences from './components/Experiences';
 
 function App() {
 
-  const [submit, setSubmit] = useState(false)
 
   return (
     <div className="App">
-      <Profile/>
+     
+      
+      <Routes>
+        <Route exact path='/' element={<Profile/>}/>
+        <Route exact path='/hi' element={<Experiences/>}/>
+
+      </Routes>
+      
+
     </div>
   );
 }
