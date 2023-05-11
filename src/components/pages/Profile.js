@@ -19,12 +19,7 @@ const Profile = () => {
 
   return (
     <div>
-        <Helmet>
-            <meta charSet="utf-8" />
-            <title>Pokkalo Property</title>
-            <link rel="canonical" href="http://mysite.com/example" />
-            <meta name="description" content="Pokkalo Property" />
-        </Helmet>
+        
 
 
         {submit === true? 
@@ -33,7 +28,7 @@ const Profile = () => {
         }}/> 
         : null}
         
-        <Nav_bar/>
+
         <Header/>
         <About/>
 
