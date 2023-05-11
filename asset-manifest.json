@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/myWeb/static/css/main.3d875e06.css",
+    "main.js": "/myWeb/static/js/main.bc2730dc.js",
+    "static/js/787.f22bbd0a.chunk.js": "/myWeb/static/js/787.f22bbd0a.chunk.js",
+    "static/media/newOrange.jpg": "/myWeb/static/media/newOrange.cff1e9099a605f43655b.jpg",
+    "static/media/me.png": "/myWeb/static/media/me.dc92dd536426bf5cce9a.png",
+    "index.html": "/myWeb/index.html",
+    "main.3d875e06.css.map": "/myWeb/static/css/main.3d875e06.css.map",
+    "main.bc2730dc.js.map": "/myWeb/static/js/main.bc2730dc.js.map",
+    "787.f22bbd0a.chunk.js.map": "/myWeb/static/js/787.f22bbd0a.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3d875e06.css",
+    "static/js/main.bc2730dc.js"
+  ]
+}
