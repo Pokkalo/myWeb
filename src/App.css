@@ -391,3 +391,32 @@
   
   top: 40%;
 }
+
+
+/* =================================== For Project ================================= */
+
+.--project-container{
+  max-width: 85%;
+  margin:20px auto;
+}
+
+.--project-container .--project-title{
+  font-size: 25px;
+  background-color: #000;
+  color:#fff;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  text-align: center;
+  padding:15px;
+}
+
+.--project-container .--project-image-container{
+  columns:3 250px;
+  gap:15px;
+}
+
+.--project-container .--project-image-container img{
+  margin-bottom: 10px;
+  border-radius: 5px;
+  width: 100%;
+}

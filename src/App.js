@@ -8,6 +8,7 @@ import {Helmet} from "react-helmet";
 import Profile from './components/pages/Profile';
 import Experiences from './components/Experiences';
 import Nav_bar from './components/Nav_bar';
+import Project from './components/pages/Project';
 
 function App() {
 
@@ -26,6 +27,7 @@ function App() {
       <Routes>
         <Route exact path='/' element={<Profile/>}/>
         <Route exact path='/hi' element={<Experiences/>}/>
+        <Route exact path='/project' element={<Project/>}/>
 
       </Routes>
       
