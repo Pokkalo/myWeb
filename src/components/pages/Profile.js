@@ -19,8 +19,6 @@ const Profile = () => {
 
   return (
     <div>
-        
-
 
         {submit === true? 
         <Window closeWindow = {()=> {

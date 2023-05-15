@@ -393,14 +393,19 @@
 }
 
 
-/* =================================== For Project ================================= */
+/* --------------------------------- For Project ----------------------------------- */
 
-.--project-container{
+
+
+
+
+/* =============================== Gallary ========================== */
+.--gallary-container{
   max-width: 85%;
   margin:20px auto;
 }
 
-.--project-container .--project-title{
+.--gallary-container .--gallary-title{
   font-size: 25px;
   background-color: #000;
   color:#fff;
@@ -410,12 +415,12 @@
   padding:15px;
 }
 
-.--project-container .--project-image-container{
+.--gallary-container .--gallary-image-container{
   columns:3 250px;
   gap:15px;
 }
 
-.--project-container .--project-image-container img{
+.--gallary-container .--gallary-image-container img{
   margin-bottom: 10px;
   border-radius: 5px;
   width: 100%;
