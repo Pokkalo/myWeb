@@ -214,10 +214,10 @@ export {
 
 // ================== Your Project ==========================
 
-export const projectImgForDescription = [
-  {
-    id: 1,
-    url: require("../imgs"),
+// export const projectImgForDescription = [
+//   {
+//     id: 1,
+//     url: require("../imgs"),
 
-  }
-]
+//   }
+// ]

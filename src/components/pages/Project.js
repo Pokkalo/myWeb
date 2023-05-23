@@ -1,8 +1,12 @@
 import React from 'react'
-import { Carousel } from 'react-bootstrap'
+import { Carousel, Container } from 'react-bootstrap'
 
 import Gallary from '../Gallary'
+import TabsForPJ from '../TabsForPJ'
+import 'swiper/css';
 
+
+import CaroFromOS from '../CaroFromOS'
 const Project = () => {
   return (
     <>
@@ -43,6 +47,14 @@ const Project = () => {
           </Carousel.Caption>
         </Carousel.Item>
       </Carousel> */}
+      {/* <Caro/> */}
+
+      <CaroFromOS/>
+      
+      <Container>
+        <TabsForPJ/>
+      </Container>
+      
       <Gallary/>
     </>
   )
